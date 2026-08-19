@@ -1,18 +1,17 @@
-# Student-report
-goal:to showcase concepts learnt in unit one, here is a complete version using everything i learnt 
+# Student Report Generator
 
-variables: name , lessons_completed, hours_per_day, total_hours, has_long_name 
+A simple Python program that collects student study habits and generates a quick summary report.
 
-user input : input ()
+## Concept Demonstration
+This project showcases fundamental Python concepts learned in Unit 1:
+* **User Input:** Gathering text and numerical data using `input()`.
+* **Variables & Data Types:** Storing information as strings, integers (`int`), floats (`float`), and booleans (`bool`).
+* **Calculations:** Basic arithmetic to determine total weekly study hours.
+* **Conditional Logic:** Evaluating text length to return a true/false condition.
 
-type casting : int() , float()
-
-arithmetic: hours_per_day * 7
-
-built-in functions: len ()
-
-comparison operators: >=
-
-strings : "student report" 
-
-print statements: print() 
+## How to Run
+1. Ensure you have Python installed.
+2. Run the script using your terminal:
+   ```bash
+   python student.py
+   ```
